@@ -1,0 +1,114 @@
+[
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_ConstructionTable"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_BunkerMedium"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_FloranStore"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_PentaHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_GlitchHut"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_GlitchLibrary"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_GlitchHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_FloranLongHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_FloranHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_GlitchFarmHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_BunkerSmall"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_AvianHouse"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_AvianTunnel"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value":
+    {
+      "item" : "CS_BunkerLarge"
+    }
+  }
+]

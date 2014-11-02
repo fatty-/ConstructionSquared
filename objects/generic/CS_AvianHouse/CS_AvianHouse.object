@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_AvianHouse",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds AvianHouse.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_AvianHouse/CS_AvianHouseIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_AvianHouse/CS_AvianHouse.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_AvianHouse/CS_AvianHouse.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_AvianHouse/CS_AvianHouse.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_AvianHouse/CS_AvianHouse.lua", 
+    "/scripts/CS_AvianHouse/CS_AvianHouse0.lua", 
+    "/scripts/CS_AvianHouse/CS_AvianHouse1.lua"
+  ],
+  "scriptDelta" : 1
+}

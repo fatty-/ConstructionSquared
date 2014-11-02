@@ -1,0 +1,39 @@
+{
+  "objectName" : "CS_ConstructionTable",
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingtable.config",
+    "filter" : [ "ConstructionTable" ]
+  },
+  "printable" : false,
+  "description" : "Build stuff!",
+  "shortdescription" : "ConstructionTable",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 1,
+
+  "apexDescription" : "...",
+  "avianDescription" : "...",
+  "floranDescription" : "...",
+  "glitchDescription" : "...",
+  "humanDescription" : "...",
+  "hylotlDescription" : "...",
+
+  "inventoryIcon" : "ConstructionTableicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "ConstructionTable.png:<color>.<frame>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 29,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

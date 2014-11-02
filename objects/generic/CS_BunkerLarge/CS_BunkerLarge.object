@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_BunkerLarge",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds BunkerLarge.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_BunkerLarge/CS_BunkerLargeIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_BunkerLarge/CS_BunkerLarge.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_BunkerLarge/CS_BunkerLarge.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_BunkerLarge/CS_BunkerLarge.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_BunkerLarge/CS_BunkerLarge.lua", 
+    "/scripts/CS_BunkerLarge/CS_BunkerLarge0.lua", 
+    "/scripts/CS_BunkerLarge/CS_BunkerLarge1.lua"
+  ],
+  "scriptDelta" : 1
+}

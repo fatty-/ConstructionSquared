@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_GlitchHut",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds GlitchHut.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_GlitchHut/CS_GlitchHutIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_GlitchHut/CS_GlitchHut.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_GlitchHut/CS_GlitchHut.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_GlitchHut/CS_GlitchHut.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_GlitchHut/CS_GlitchHut.lua", 
+    "/scripts/CS_GlitchHut/CS_GlitchHut0.lua", 
+    "/scripts/CS_GlitchHut/CS_GlitchHut1.lua"
+  ],
+  "scriptDelta" : 1
+}

@@ -1,0 +1,29 @@
+---Next---
+*update version string
+multi-cell objects will now block placement of other things in the are they occupy
+the paintbucket will no longer paint objects
+
+---Needs to be done---
+
+use -2 for blocked cell, need to make sure that it doesn't conflict with using paintbrush to delete
+make sure undo/redo/paintbrush work with this - disallow paintbrush with objects, undo/redo also needs to be passed the cells that are overwritten by -2
+what happens if the -2 overwrites a cell containing an object? - -2 overwrites occupied cell, end up with dead cells where the object used to be placed.
+when the object is overwritten, need to get the object, get it's image size, and then remove all the cells related to it with the objectBlocking value
+
+---Future releases---
+
+--Java--
+
+dynamic drop down to display the available mod tilesets, if it contains an info.txt file then display the text in a popup, support clickable url to mod thread from info.txt
+zoom?
+add crafting item into placeable objects, start misc objects category, agaran category?
+circles?
+gridThread the large undo/redo/paintbucket actions
+find a good way to remove mappings to tiles that don't exist anymore without breaking compatibility
+
+--Lua--
+assure that all blocks can be placed in all circumstances, hoping for an API call
+
+--Misc--
+race structures for agaran
+check for new stuff as updates happen

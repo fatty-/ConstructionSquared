@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Limitations</title>
+  </head>
+  <body>
+    There is currently no way to "force" the game to place a tile somewhere. Things that will prevent a tile from being placed:<br>
+    <hr>
+    If you have tiles that are completely disconnected from anything, like just floating in the air or something.<br>
+    Tree leaves are in the way.<br>
+    There's a tile in the way that can withstand 1,000,000 crushing damage.<br>
+    <hr>
+    For objects:<br>
+    1) There are over 700 of them currently (which is less than half of the total objects in the game!), so I would be surprised if they *all* worked perfectly.<br>
+    2) Currently the objects take up a single cell in the grid, however they do not actually take up that much space. To get them to be placed in game, you need to place them in the tile that would be the lower-right corner of the space it would actually occupy ingame. See the BunkerSmall/Medium/Large structures for an example using the Apex Ship Doors.<br>
+    For Building By Trees:<br>
+    Structures will fail to build if leaves from trees are in the way. Unfortunately there isn't much I can do about that (as far as I know) since leaves are impossible to remove on their own, you have to destroy the trunk of the tree they're on.<br>
+    <hr>
+    For Build Times in General:<br>
+    Each time the game updates, either two tiles are destroyed or one tile is placed. What this means is that the time it takes to build a structure is directly related to the number of tiles in the structure and the script update speed of the game (more tiles take longer). However, limiting what is done each update is also what allows arbitrarily large structures to be built without causing any lag.
+  </body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_GlitchHouse",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds GlitchHouse.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_GlitchHouse/CS_GlitchHouseIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_GlitchHouse/CS_GlitchHouse.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_GlitchHouse/CS_GlitchHouse.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_GlitchHouse/CS_GlitchHouse.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_GlitchHouse/CS_GlitchHouse.lua", 
+    "/scripts/CS_GlitchHouse/CS_GlitchHouse0.lua", 
+    "/scripts/CS_GlitchHouse/CS_GlitchHouse1.lua"
+  ],
+  "scriptDelta" : 1
+}

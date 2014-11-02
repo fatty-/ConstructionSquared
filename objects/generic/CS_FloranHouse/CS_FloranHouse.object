@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_FloranHouse",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds FloranHouse.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_FloranHouse/CS_FloranHouseIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_FloranHouse/CS_FloranHouse.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_FloranHouse/CS_FloranHouse.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_FloranHouse/CS_FloranHouse.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_FloranHouse/CS_FloranHouse.lua", 
+    "/scripts/CS_FloranHouse/CS_FloranHouse0.lua", 
+    "/scripts/CS_FloranHouse/CS_FloranHouse1.lua"
+  ],
+  "scriptDelta" : 1
+}

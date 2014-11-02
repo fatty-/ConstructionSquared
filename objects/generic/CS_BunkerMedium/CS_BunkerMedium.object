@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_BunkerMedium",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds BunkerMedium.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_BunkerMedium/CS_BunkerMediumIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_BunkerMedium/CS_BunkerMedium.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_BunkerMedium/CS_BunkerMedium.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_BunkerMedium/CS_BunkerMedium.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_BunkerMedium/CS_BunkerMedium.lua", 
+    "/scripts/CS_BunkerMedium/CS_BunkerMedium0.lua", 
+    "/scripts/CS_BunkerMedium/CS_BunkerMedium1.lua"
+  ],
+  "scriptDelta" : 1
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "CS_PentaHouse",
+  "rarity" : "Common",
+  "description" : "Builds something.",
+  "shortdescription" : "Builds PentaHouse.",
+  "race" : "generic",
+  "category" : "wire",
+  "objectType" : "wire",
+  "printable" : false,
+  "price" : 1,
+
+  "inventoryIcon" : "/objects/generic/CS_PentaHouse/CS_PentaHouseIcon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/generic/CS_PentaHouse/CS_PentaHouse.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "/objects/generic/CS_PentaHouse/CS_PentaHouse.animation",
+  "animationParts" : {
+    "beacon" : "/objects/generic/CS_PentaHouse/CS_PentaHouse.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : 
+  [ 
+    "/scripts/reusableBits.lua",
+    "/scripts/CS_PentaHouse/CS_PentaHouse.lua", 
+    "/scripts/CS_PentaHouse/CS_PentaHouse0.lua", 
+    "/scripts/CS_PentaHouse/CS_PentaHouse1.lua"
+  ],
+  "scriptDelta" : 1
+}
